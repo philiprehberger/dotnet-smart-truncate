@@ -47,6 +47,12 @@ StringTruncator.Truncate("superlongwordwithoutspaces", 10);
 - The returned string (including suffix) is always at most `maxLength` characters.
 - The suffix defaults to `"..."`.
 
+## Development
+
+```bash
+dotnet build src/Philiprehberger.SmartTruncate.csproj --configuration Release
+```
+
 ## License
 
 MIT
