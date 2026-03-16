@@ -1,5 +1,9 @@
 # Philiprehberger.SmartTruncate
 
+[![CI](https://github.com/philiprehberger/dotnet-smart-truncate/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/dotnet-smart-truncate/actions/workflows/ci.yml)
+[![NuGet](https://img.shields.io/nuget/v/Philiprehberger.SmartTruncate.svg)](https://www.nuget.org/packages/Philiprehberger.SmartTruncate)
+[![License](https://img.shields.io/github/license/philiprehberger/dotnet-smart-truncate)](LICENSE)
+
 Truncate strings at word boundaries — no cut words, no ugly mid-word breaks.
 
 ## Install
