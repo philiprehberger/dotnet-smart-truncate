@@ -1,7 +1,13 @@
 namespace Philiprehberger.SmartTruncate;
 
+/// <summary>Provides word-boundary-aware string truncation.</summary>
 public static class StringTruncator
 {
+    /// <summary>Truncates <paramref name="text"/> to <paramref name="maxLength"/> characters, breaking at the last word boundary when possible.</summary>
+    /// <param name="text">The string to truncate.</param>
+    /// <param name="maxLength">Maximum allowed length including the suffix.</param>
+    /// <param name="suffix">The suffix appended to truncated text (default <c>"..."</c>).</param>
+    /// <returns>The original string if it fits, otherwise a truncated version with the suffix appended.</returns>
     public static string Truncate(string text, int maxLength, string suffix = "...")
     {
         if (string.IsNullOrEmpty(text) || text.Length <= maxLength)

@@ -34,6 +34,24 @@ StringTruncator.Truncate("superlongwordwithoutspaces", 10);
 // => "superlo..."
 ```
 
+### Custom Suffix
+
+```csharp
+using Philiprehberger.SmartTruncate;
+
+StringTruncator.Truncate("Hello wonderful world", 15, " [more]");
+// "Hello [more]"
+```
+
+### Short Strings
+
+```csharp
+using Philiprehberger.SmartTruncate;
+
+StringTruncator.Truncate("Hi", 10);   // "Hi" — no truncation needed
+StringTruncator.Truncate("Hello", 3); // "..." — suffix only when too short
+```
+
 ## API
 
 ### `StringTruncator`
