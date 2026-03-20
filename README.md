@@ -6,7 +6,7 @@
 
 Truncate strings at word boundaries — no cut words, no ugly mid-word breaks.
 
-## Install
+## Installation
 
 ```bash
 dotnet add package Philiprehberger.SmartTruncate
