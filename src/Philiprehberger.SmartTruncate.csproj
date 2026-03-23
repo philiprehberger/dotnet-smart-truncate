@@ -7,9 +7,9 @@
     <LangVersion>latest</LangVersion>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <PackageId>Philiprehberger.SmartTruncate</PackageId>
-    <Version>0.1.6</Version>
+    <Version>0.1.7</Version>
     <Authors>Philip Rehberger</Authors>
-    <Description>Truncate strings at word boundaries without cutting words</Description>
+    <Description>Truncate strings at word boundaries — no cut words, no ugly mid-word breaks.</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RepositoryUrl>https://github.com/philiprehberger/dotnet-smart-truncate</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
