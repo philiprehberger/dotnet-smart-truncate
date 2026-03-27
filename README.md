@@ -3,6 +3,7 @@
 [![CI](https://github.com/philiprehberger/dotnet-smart-truncate/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/dotnet-smart-truncate/actions/workflows/ci.yml)
 [![NuGet](https://img.shields.io/nuget/v/Philiprehberger.SmartTruncate.svg)](https://www.nuget.org/packages/Philiprehberger.SmartTruncate)
 [![License](https://img.shields.io/github/license/philiprehberger/dotnet-smart-truncate)](LICENSE)
+[![Sponsor](https://img.shields.io/badge/sponsor-GitHub%20Sponsors-ec6cb9)](https://github.com/sponsors/philiprehberger)
 
 Truncate strings at word boundaries — no cut words, no ugly mid-word breaks.
 
@@ -73,4 +74,4 @@ dotnet build src/Philiprehberger.SmartTruncate.csproj --configuration Release
 
 ## License
 
-MIT
+[MIT](LICENSE)
